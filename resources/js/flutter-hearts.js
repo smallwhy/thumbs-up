@@ -1,5 +1,5 @@
 
-// 送心特效
+// 送心特效算法
 !function (t, e) {
 	"object" == typeof exports && "undefined" != typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define(e) : t.BubbleHearts = e()
 }(this, function () {
