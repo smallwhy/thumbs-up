@@ -5,7 +5,7 @@
 
 // 当前点击数
 var sendFlowData = {
-    sendNum: 0,
+    sendNum: 0, // 点赞总数
     intervalObj: null,
     iconArrayData: [
         'resources/img/1.png',
@@ -14,8 +14,8 @@ var sendFlowData = {
         'resources/img/4.png',
         'resources/img/5.png',
     ],
-    probability: [6, 3, 1, 1, 1],
-    percentIconArrayData: []
+    probability: [6, 3, 1, 1, 1], // 对应图片出现的概率
+    percentIconArrayData: [] // 根据概率重新组合图标数组
 };
 
 // 初始化送花特效
